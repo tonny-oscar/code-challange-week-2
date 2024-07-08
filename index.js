@@ -7,12 +7,13 @@ addShoppingButton.addEventListener('click',function(){
 
     paragraph.innerText=inputField.value;
     ShoppingContainer.appendChild(paragraph);
-    
+    inputField.value='';
+
     paragraph.addEventListener('click',function(){
         paragraph.style.textDecoration="line-through";
 
         paragraph.addEventListener('dblclick',function(){
-            paragraph.removeChild="paragraph";
-        })  
+            ShoppingContainer.removeChild(paragraph); 
+        })
     })
 });
