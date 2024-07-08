@@ -1,0 +1,12 @@
+body{
+background-color: aqua;
+width: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+.container{
+    width: 360px;
+}
+#input button{
+    text-size-adjust: 10px;
+}
