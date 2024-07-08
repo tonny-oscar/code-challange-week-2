@@ -1,10 +1,11 @@
 let addShoppingButton=document.getElementById('addShopping');
-let shoppingContainer=document.getElementById('shoppingContainer');
+let ShoppingContainer=document.getElementById('ShoppingContainer');
 let inputField=document.getElementById('inputField');
 
 addShoppingButton.addEventListener('click',function(){
     var paragraph=document.createElement('p');
     paragraph.classList.add();
     paragraph.innerText=inputField.value;
-    shoppingContainer.appendChild(paragraph);
+    ShoppingContainer.appendChild(paragraph);
+    addShoppingButton.addEventListener('click',function(
 });
